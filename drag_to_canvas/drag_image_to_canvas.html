@@ -16,14 +16,26 @@
 	<body>
 		<div>
 			<header>
-				<h1>Drag image to Canvas</h1>
+				<h2>Drag image to Canvas</h2>
 			</header>
-
-			<div id="dropbox">
-				<span class="message">Drop images here to upload.</span>
+			<div id="drop_container">
+				<div id="dropbox">
+					<span class="message">Drop images here.</span>
+					<div id="miniatura"></div>
+				</div>
+				<!--
+				TODO : INTENTAR DESCUBRIR CÓMO MOVER ELIPSES
+				<div>
+					<label><input type="radio" name="herramientas" id="rectangulo" checked="true" />Rectángulo</label>
+					<label><input type="radio" name="herramientas" id="ovalo" />Óvalo</label>
+				</div>
+				-->
 			</div>
-			<div id="container"></div>
+			<div id="container">
+				
+			</div>
 		</div>
 		<script src="libs/imagetocanvas.js"></script>
+		<script src="libs/img_highligter.js"></script>
 	</body>
 </html>

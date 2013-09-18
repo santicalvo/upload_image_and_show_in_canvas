@@ -1,19 +1,28 @@
 body {
 	background: #E5E5E5;
 }
+#drop_container{
+	float:left;
+}
 #dropbox {
 	background: #4F4D4B;
 	border: 3px dashed white;
 	width: 250px;
 	min-height: 150px; 
 	color: white;
-	padding: 2em;
+	padding: 5px;
+	font-size: 80%;
+	margin-right: 15px;
 }
 
-#dropbox .preview img {
+#dropbox img {
 	border: 1px solid #FFFFFF;
     box-shadow: 0 0 2px #000000;
     display: block;
-    max-height: 180px;
-    max-width: 240px;
+    max-height: 100px;
+   max-width: 240px;
+}
+
+#container > div {
+	border: 3px dashed black;
 }
